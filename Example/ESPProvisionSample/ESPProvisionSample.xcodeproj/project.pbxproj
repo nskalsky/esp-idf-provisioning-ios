@@ -336,7 +336,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
-				ORGANIZATIONNAME = Espressif;
+				ORGANIZATIONNAME = Skyaware;
 				TargetAttributes = {
 					F19AEB9A2498E66A0078E5A1 = {
 						CreatedOnToolsVersion = 11.4.1;
@@ -732,6 +732,8 @@
 				ESP_SECURITY_MODE = Secure;
 				ESP_SETTINGS_ENABLED = YES;
 				INFOPLIST_FILE = ESPProvisionSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SkyAware;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -766,6 +768,8 @@
 				ESP_SECURITY_MODE = Secure;
 				ESP_SETTINGS_ENABLED = YES;
 				INFOPLIST_FILE = ESPProvisionSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SkyAware;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -934,7 +938,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QWXF6GB4AV;
+				DEVELOPMENT_TEAM = UG93228ZNN;
 				ESP_ALLOW_PREFIX_SEARCH = YES;
 				ESP_ALLOW_QR_CODE_SCAN = YES;
 				ESP_DEVICE_THREAD_USERNAME = threadprov;
@@ -943,13 +947,15 @@
 				ESP_SECURITY_MODE = Secure;
 				ESP_SETTINGS_ENABLED = YES;
 				INFOPLIST_FILE = ESPProvisionSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SkyAware;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 3.0.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.provble;
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedbird.provble;
 				PRODUCT_NAME = "ESP BLE Prov";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -1076,6 +1082,8 @@
 				ESP_SECURITY_MODE = Secure;
 				ESP_SETTINGS_ENABLED = YES;
 				INFOPLIST_FILE = ESPProvisionSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SkyAware;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

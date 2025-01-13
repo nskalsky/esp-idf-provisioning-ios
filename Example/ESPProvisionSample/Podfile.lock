@@ -1,0 +1,26 @@
+PODS:
+  - ESPProvision (3.0.2):
+    - ESPProvision/Core (= 3.0.2)
+  - ESPProvision/Core (3.0.2):
+    - SwiftProtobuf (~> 1.22.0)
+  - MBProgressHUD (1.2.0)
+  - SwiftProtobuf (1.22.1)
+
+DEPENDENCIES:
+  - ESPProvision (= 3.0.2)
+  - MBProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - ESPProvision
+    - MBProgressHUD
+    - SwiftProtobuf
+
+SPEC CHECKSUMS:
+  ESPProvision: ffc50093a0a3e72a80d03116bbe0d0d4bb4252b7
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SwiftProtobuf: 7773c4e96a99d7b8ab7cda0fc30a883732ff93b1
+
+PODFILE CHECKSUM: 1303f144258b4d6dc19bf917b254ccf6b6c5c950
+
+COCOAPODS: 1.16.2
